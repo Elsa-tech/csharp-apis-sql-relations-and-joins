@@ -1,0 +1,1 @@
+SELECT movies.title, directors.country FROM movies JOIN directors ON movies.director_id = directors.id WHERE directors.country LIKE '%USA'
